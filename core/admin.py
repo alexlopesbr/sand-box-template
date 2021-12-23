@@ -19,6 +19,7 @@ class UserAdmin(BaseUserAdmin):
                            'verified_phone',
                            'phone',
                            'username',
+                           'profile_image',
 
                            'is_active')}),
         ('Permissions', {'fields': ('is_admin',)}),
